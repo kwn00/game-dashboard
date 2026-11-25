@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1e1e2e" />
+    <meta name="description" content="개발자 컨셉 픽셀아트 웹 게임 모음: FRIDAY DEPLOY, CODE FREEZE, HOTFIX RELOAD" />
+    <title>DEV ARCADE</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@2.40.3/dist/galmuri.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <p class="prompt">~/arcade <span class="branch">(main)</span> $ ls games/</p>
+      <h1 class="logo">DEV ARCADE</h1>
+      <p class="tagline">플레이할 게임을 고르세요</p>
+    </header>
+
+    <main class="grid">
+      <a class="card" href="https://friday-deploy.onrender.com/" style="--accent: var(--red)">
+        <div class="card__thumb"><img src="/thumbs/friday-deploy.svg" alt="FRIDAY DEPLOY 썸네일: 버그 떼에 둘러싸인 개발자" /></div>
+        <div class="card__body">
+          <h2 class="card__title">FRIDAY DEPLOY</h2>
+          <p class="card__desc">금요일 밤 배포, 몰려드는 버그 속에서 살아남는 픽셀아트 서바이버</p>
+          <span class="btn">▶ PLAY</span>
+        </div>
+      </a>
+
+      <a class="card" href="https://code-freeze.onrender.com/" style="--accent: var(--blue)">
+        <div class="card__thumb"><img src="/thumbs/code-freeze.svg" alt="CODE FREEZE 썸네일: 얼어붙은 서버실" /></div>
+        <div class="card__body">
+          <h2 class="card__title">CODE FREEZE</h2>
+          <p class="card__desc">모든 것이 얼어붙은 서버실, 동결 기간을 버텨라</p>
+          <span class="btn">▶ PLAY</span>
+        </div>
+      </a>
+
+      <a class="card" href="https://hotfix-reload.onrender.com/" style="--accent: var(--orange)">
+        <span class="badge">BETA</span>
+        <div class="card__thumb"><img src="/thumbs/hotfix-reload.svg" alt="HOTFIX RELOAD 썸네일: 불타는 프로덕션과 새로고침" /></div>
+        <div class="card__body">
+          <h2 class="card__title">HOTFIX RELOAD</h2>
+          <p class="card__desc">불타는 프로덕션, 핫픽스하고 다시 리로드</p>
+          <span class="btn">▶ PLAY</span>
+        </div>
+      </a>
+    </main>
+
+    <footer class="foot">
+      <p>※ 서버가 잠들어 있으면 첫 접속에 30초~1분 정도 걸릴 수 있어요</p>
+    </footer>
+  </body>
+</html>
